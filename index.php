@@ -94,20 +94,22 @@
 		}
 			
 
-			echo "Numeros Pares: ".$contPar;
+			echo "Numeros Pares: ".$contPar."<br>";
 			echo "Numeros Impares: ".$contImpar."<br>";
 			
-			echo"Cantidad de numeros uno: ".$num1."<br>";
+			echo"Cantidad de numeros uno: ".$num1*100/$vueltas."%"."<br>";
+			echo"Cantidad de numeros dos: ".$num2*100/$vueltas."%"."<br>";
+			echo"Cantidad de numeros tres: ".$num3*100/$vueltas."%"."<br>";
+			echo"Cantidad de numeros cuatro: ".$num4*100/$vueltas."%"."<br>";
+			echo"Cantidad de numeros cinco: ".$num5*100/$vueltas."%"."<br>";
+			echo"Cantidad de numeros seis: ".$num6*100/$vueltas."%"."<br>";
+			echo"Cantidad de numeros siete: ".$num7*100/$vueltas."%"."<br>";
+			echo"Cantidad de numeros ocho: ".$num8*100/$vueltas."%"."<br>";
+			echo"Cantidad de numeros nueve: ".$num9*100/$vueltas."%"."<br>";
+			echo"Cantidad de numeros diez: ".$num10*100/$vueltas."%"."<br>";
 
-			echo"Cantidad de numeros dos: ".$num2."<br>";
-			echo"Cantidad de numeros tres: ".$num3."<br>";
-			echo"Cantidad de numeros cuatro: ".$num4."<br>";
-			echo"Cantidad de numeros cinco: ".$num5."<br>";
-			echo"Cantidad de numeros seis: ".$num6."<br>";
-			echo"Cantidad de numeros siete: ".$num7."<br>";
-			echo"Cantidad de numeros ocho: ".$num8."<br>";
-			echo"Cantidad de numeros nueve: ".$num9."<br>";
-			echo"Cantidad de numeros diez: ".$num10."<br>";
+			
+			// despues en el 7, sacar un if que no muestre mas del 5%;
 		?>
 </body>
 </html>
